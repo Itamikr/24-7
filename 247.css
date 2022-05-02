@@ -1,0 +1,1385 @@
+/* General */
+
+@import url(https://use.fontawesome.com/releases/v5.13.0/css/all.css);
+
+:root {
+	--accent-color: #00BFFF; 
+	--shade: #0085CE;
+}
+
+@font-face {
+	font-family: gamefont;
+	src: url(https://raw.githubusercontent.com/South-Paw/typeface-vag-rounded/master/files/vag-rounded-400.woff2);
+}
+ 
+/* Hide */
+
+ #tlInfHold {
+    display: none !important;
+ }
+
+ #seasonLabel {
+ 	display: none !important;
+ }
+
+ #newsHolder {
+    display: none !important;
+ }
+
+ #aHolder {
+ 	display: none !important;
+ }
+
+ #ot-sdk-btn-floating {
+ 	display: none !important;
+ }
+
+ #braveWarning {
+ 	display: none !important;
+ }
+
+ #voiceDisplay {
+ 	display: none !important;
+ }
+
+ #spinRespin .material-icons {
+   display: none;
+ }
+
+ #termsInfo {
+    background-color: #fff0;
+ }
+
+ .verticalSeparatorInline {
+    display: none !important;
+ }
+
+ .terms {
+ 	margin-left: 10px;
+ }
+
+ #healthBar {
+    display: none !important;
+ }
+
+ #hudClassIcon {
+   display: none !important;
+ }
+
+ #menuClassNameTag {
+    display: none !important;
+ }
+
+ #challIcon {
+   display: none !important;
+ }
+
+ #maxHP {
+   display: none !important;
+ }
+
+ #mapInfo {
+ 	display: none !important;
+ }
+
+ .menuItem .menuItemIcon {
+    display: none !important;
+ }
+
+ .menuItem .menuItemIcon {
+    display: none !important;
+ }
+
+ #customizeButton .material-icons {
+	display: none !important;
+ }
+
+ .headerBar {
+    background-color: #fff0;
+ }
+
+ .button.lgn .material-icons {
+     display: none !important;
+ }
+
+  #ammoMax {
+    display: none;
+ }
+
+ #ammoIcon {
+   display: none;
+ }
+
+ .imageButton {
+     display: none !important;
+ }
+
+ #editorBtnM {
+     display: none !important;
+ }
+
+ .verticalSeparator {
+     display: none !important;
+ }
+
+ .menuClassLevelBox {
+    display: none !important;
+ }
+
+ .endAHolder {
+   display: none !important;
+ }
+
+ .matchVote {
+   text-shadow: none !important;
+ }
+
+ .krSocial {
+     display: none !important;
+ }
+
+ .progressBar {
+     display: none !important;
+ }
+
+
+  #menuPingDisplay .material-icons {
+    display: none !important;
+ }
+
+ .material-icons[style="margin-top:-6px;color:#FBC02D;vertical-align:middle"] {
+   display: none;
+  }
+
+ .material-icons[style="color:#fff;font-size:25px;vertical-align:bottom;margin-top:-20px;margin-left:6px"] {
+   display: none !important;
+  }
+
+  #timerIcon {
+    display: none !important;
+ }
+
+  #killsIcon,
+  #deathsIcon,
+  #streakIcon,
+  #livesCount .material-icons,
+  #scoreCount .material-icons,
+  #kdIcon {
+    display: none;
+ } 
+
+  #pingIcon {
+     display: none !important;
+ }
+
+ .carousel {
+    display: none !important;
+ }
+
+ #menuClassSubtext {
+ 	display: none !important;
+ }
+
+ #menuClassName {
+ 	display: none !important;
+ }
+
+ .material-icons[style="font-size:25px"] {
+ 	display: none !important;
+ }
+
+ /* Editing */
+
+ #mainLogo {
+    content: url(https://t1p.de/yj5w);
+    transform: translateY(-20px);
+ }
+
+#menuItemContainer {
+    position: fixed;
+    top: 45%;
+    left: 47%;
+    height: 0;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.material-icons-outlined.menBtnIcn {
+    font-size: 39px !important;
+    margin-left: 43px;
+  transform: scale(1.4);
+  
+}
+.menuItem .menuItemTitle {
+    display: none
+}
+.menuItem:hover .menBtnIcn {
+    transform: scale(1.7) !important;
+    color: white !important;
+    
+}
+#faceItIconM, #rankedSoonTm{
+  display: none;
+}
+ .terms {
+    display: list-item;
+    transition: all 0.3s ease;
+ }
+
+ .terms:hover {
+    text-decoration: none;
+    transform: scale(1.08);
+ }
+
+ .button {
+    background-color: transparent !important;
+    color: var(--accent-color) !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+ }
+
+ .button.small {
+    padding: 10px !important;
+    margin-left: 35px ;
+    margin-right: 3px;
+    text-shadow: none !important;
+    transform: scale(1.4);
+    transition: all 0.2s ease;
+ }
+
+ .button:hover {
+ 	font-size: 27px!important;
+ 	background-color: #fff0 !important;
+ 	box-shadow: none !important;
+ 	-webkit-transform: scale(1.4);
+ 	transform: scale(1.4);
+ }
+
+ .button.small:hover {
+    background: linear-gradient(90deg, #00f4ff, #00bfff , #0056ff, #00bfff , #00f4ff);;
+    background-size: 400% 100%;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.1s linear infinite;
+ }
+
+ #subLogoButtons {
+    position: absolute;
+    bottom: 132px;
+    left: 50%;
+    transform: translate(-50%, 50px) scale(.95);
+    transition: all 0.3s ease;
+ }
+
+ #customizeButton {
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+    text-align: center;
+    padding: 0px !important;
+    transform: scale(1.4);
+    top: 65px;
+    right: 20px;
+ }
+
+ #customizeButton:hover {
+    background: linear-gradient(90deg, #00f4ff, #00bfff , #0056ff, #00bfff , #00f4ff);
+    background-size: 400% 100%;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.1s linear infinite;
+ }
+
+
+ .button.lgn {
+    font-size: 23px;
+    padding: 0px !important;
+    margin: 0px !important;
+    top: -10px;
+    left: -55px;
+ }
+
+ .button.lgn:hover {
+    transform: scale(0.95) !important;
+    background: linear-gradient(90deg, #00f4ff, #00bfff , #0056ff, #00bfff , #00f4ff);
+    background-size: 400% 100%;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 1.1s linear infinite;
+ }
+
+ #mLevelCont {
+    background-color: #fff0;
+ }
+
+ #mailIcon:hover {
+    opacity: 100%;
+ }
+
+ #menuAccountUsername {
+ 	margin-right: 10px;
+ }
+
+ #policeButton {
+    margin: 0px !important;
+    padding: 0px !important;
+    top: 70px;
+    right: 45px;
+    height: max-content !important;
+    width: max-content !important;
+ } 
+
+ #policeButton:hover {
+ 	transform: scale(1.15);
+ }
+
+ .speechBox {
+ 	border-radius: 10 !important;
+ }
+
+ #uiBase.onMenu #chatHolder {
+    left: 10px;
+ }
+
+ #chatHolder {
+    transition: 0.5s ease;
+ }
+
+ #chatInput {
+   border-bottom-right-radius: 10px;
+   border-bottom-left-radius: 10px;
+ }
+
+ .chatItem {
+    margin-bottom: 10px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #fff0;
+    margin-left: 10px;
+    width: 240px !important;
+ }
+
+ #chatList {
+    background-color: rgba(0,0,0,.4);
+ }
+
+ .chatItem[style="background-color: rgba(0, 0, 0, 0.4);"] {
+ 	background-color: #fff0 !important;
+ }
+
+ ::-webkit-scrollbar-thumb {
+    background: linear-gradient(70deg, var(--accent-color) 0%, var(--shade) 100%);
+    border-radius: 30px !important;
+ }
+
+ #menuPingDisplay:after {
+    content: ' ms';
+ }
+
+ #menuPingText {
+    color: var(--accent-color);
+ }
+
+ #menuFPS[style="color:#9eeb56"] {
+     color: var(--accent-color) !important;
+ }
+
+ #uiBase.onMenu #spectButton {
+    z-index: 1;
+    width: 96px;
+    top: 50%;
+ }
+
+ #spectButton span[style="font-size:15px;color:rgba(255,255,255,0.6)"] {
+    color: #fff0 !important;
+ }
+
+ #instructions {
+    color: cyan;
+    animation: none;
+ }
+
+ #spectButton .switchsml {
+    margin: 0;
+    position: absolute;
+    width: 9%;
+    transform: translate(10px, 40px) scale(0.9);
+ }
+
+ .sliderSml {
+    opacity: 1;
+    background-color: #fff0 !important;
+ }
+
+ .sliderSml::before {
+    content: "Spectate";
+    font-size: 20px;
+    color: cyan;
+    width: max-content;
+    height: auto;
+    background-color: #fff0;
+    text-align: center;
+    transition-duration: 0.5s;
+ }
+
+ input:checked+.sliderSml::before {
+    content: "Spectating";
+    transform: translateX(-8px);
+    color: cyan;
+ }
+#menuMiniProfilePic{
+  content: url('https://media.discordapp.net/attachments/689140451533652020/970468406652444692/a2a08c01212125b0b4e76717f94b4eaf-removebg-preview.png');  
+}
+
+ /* menuwindow */
+
+ #menuWindow {
+    border-radius: 10px;
+    max-height: calc(100% - 400px);
+    box-shadow: none;
+    animation: open .5s 1;
+ }
+ @keyframes open {
+  0%   {top: 1800px;}
+  100%  {top: 50%;}
+ }
+ 
+ #menuWindow.dark {
+    background-color: rgb( 0 255 255 / 0.55 );
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+ }
+
+
+ .lnkTw {
+    background-color: var(--shade);
+    transition: 0.3s ease;
+ }
+
+ .lnkTw:hover {
+    color: var(--accent-color);
+    box-shadow: inset 120px 0px rgb(255 255 255);
+    background-color: white !important;
+    transform: scale(1);
+ }
+
+ .loadoutBtn {
+    background: var(--accent-color);
+    color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+ }
+
+ .subPassChg {
+    background-color: var(--shade);
+    transition: 0.3s ease;
+ }
+
+ .subPassChg:hover {
+   color: var(--accent-color);
+   transform: scale(1);
+   box-shadow: inset 150px 0px rgb(255 255 255);
+   background-color: white !important;
+ }
+
+ .loadoutBtn:hover {
+    color: var(--accent-color);
+    transform: scale(1.0);
+    box-shadow: inset 80px 0px rgb(255 255 255);
+    background-color: white;
+ }
+
+ }
+
+ .settText {
+    transition: all 0.3s ease;
+    color: var(--accent-color);
+ }
+
+ .settLabel[style="color:#2196F3"] {
+    background: var(--accent-color);
+    background-size: 200% auto;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+ }
+
+ .settText:hover {
+    text-decoration: none;
+ }
+
+ .wepLink {
+     transition: all 0.3s ease;
+ }
+
+ .wepLink:hover {
+    text-decoration: none;
+ }
+
+ #limitedBarProg {
+   border-radius: 7px;
+ }
+
+ #limitedBar {
+   border-radius: 10px;
+ }
+
+ .skinColorItem:hover {
+    border-radius: 10px;
+ }
+
+ .skinColorItem {
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+ }
+
+ .classCard:hover img {
+    opacity: 1;
+    transform: scale(1.05);
+ }
+
+ .classCard:hover img {
+    text-shadow: none;
+ }
+
+ .classImgC {
+   transition: 0.3s ease;
+ }
+
+ .classWeap {
+    font-size: 14px;
+    margin-top: 3px;
+ }
+
+ .classXPBar {
+    border: 4px black;
+    background-color: #0000005c;
+ }
+
+ .clsXPBarC {
+    background: linear-gradient(70deg, var(--accent-color) 10%, var(--shade) 105%);
+ }
+
+ .classHP {
+     text-shadow: none;
+ }
+
+ .classLvl {
+     text-shadow: none;
+ }
+
+ .serverHostOp {
+    border: none;
+    text-shadow: none;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    margin: 10px;
+ } 
+
+ .serverHostOp:hover {
+     opacity: 1 !important;
+     transform: scale(1.05);
+ }
+
+ .hostPresetBtn {
+    color: #fff;
+    background-color: var(--shade);
+    border-radius: 10px;
+    transition: 0.3s ease;
+ }
+
+ .hostPresetBtn:hover {
+ 	color: var(--accent-color);
+    box-shadow: inset 80px 0px rgb(255 255 255);
+    background-color: white;
+ }
+ 
+ .blackShad {
+    text-shadow: none;
+ }
+
+ .hostMap {
+    margin: 4px;
+    border: none;
+    border-radius: 10px;
+ }
+
+ .formInput {
+ 	border-radius: 10px;
+ }
+
+ #presetSelect[style="border-radius:6px;margin-left:10px;border:none;background:#eee;;padding:6px;padding-bottom:6px;margin-top:5px;margin-bottom:5px;"] {
+ 	border-radius: 10px !important;
+ }
+
+ a {
+     color: var(--shade);
+ }
+
+ a:hover {
+    text-decoration: none;
+ }
+
+ .optName {
+    text-shadow: none;
+ }
+
+ .hostOpt {
+    margin: 4px;
+    border-radius: 10px;
+ }
+ 
+ input:checked+.optCheck {
+    background-color: var(--shade);
+    border-radius: 10px;
+ }
+
+ .optCheck {
+ 	border-radius: 10px;
+ }
+
+ input:hover+.optCheck {
+    background-color: #c3c3c3;
+    transition: 0.1s ease;
+ } 
+
+ input:checked+.optCheck:hover {
+ 	background-color: #c3c3c3;
+ }
+
+ .hostOpt {
+     border: none;
+ }
+
+ .hostToggle {
+    background: var(--shade);
+    color: white;
+    transition: 0.3s ease;
+    border-radius: 10px;
+ }
+
+ #rawMapData {
+ 	border-radius: 10px;
+ }
+
+ .hostToggle:hover {
+    color: var(--accent-color);
+    box-shadow: inset 80px 0px rgb(255 255 255);
+    background-color: white;
+ }
+
+ .advancedToggle {
+    border-radius: 10px;
+ }
+
+ .advancedToggle[style="background-color: rgb(33, 150, 243);"] {
+   background-color: var(--shade) !important;
+ }
+ 
+ .inputGrey2 {
+    transform: translate(0px, 3px);
+ }
+
+ .slider:before {
+    border-radius: 10px;
+ }
+
+ .slider {
+    border-radius: 10px;
+ }
+
+ input:checked+.slider {
+    background-color: var(--shade);
+ }
+
+ .xpBarB {
+    background: linear-gradient(70deg, var(--accent-color) 10%, var(--shade) 105%);
+    border-radius: 6px;
+ }
+
+ .menuTabNew {
+    transition: all 0.3s ease;
+ }
+
+ #spinKR {
+   border-radius: 10px;
+   background-color: rgba(0,0,0,.4);
+ }
+
+ #spinInfo {
+   border-radius: 10px;
+   background-color: rgba(0,0,0,.4);
+ }
+
+ .spinPrevIcon {
+   border-radius: 10px;
+   background-color: rgba(0,0,0,.4);
+ }
+
+ .spinSprayDiv {
+   border-radius: 10px;
+   background-color: rgba(0,0,0,.4);
+ }
+
+ #spinItemName {
+   text-shadow: none !important;
+ }
+
+ .button.btnRespin {
+   margin-left: -23px;
+   margin-right: 0px;
+   background-color: #fff0 !important;
+   box-shadow: inset 0 -7px 0 0 #fff0!important;
+ }
+
+ .button.btnRespin:hover {
+   transform: scale(1.02);
+ }
+
+ #spinRespin:hover {
+   transform: scale(1.02);
+ }
+
+ .menuTabNew:hover {
+    border-bottom: 5px solid rgb(0 0 0 / 78%) !important;
+ }
+
+ .dark .menuTabNew:hover {
+    border-bottom: 5px solid rgb(0 0 0 / 78%) !important;
+ }
+
+ .dark .tabANew {
+    border-bottom: 5px solid rgb(0 0 0 / 78%) !important;
+ }
+
+ #confPremiumPop, #twitchPop, #confPop, #clientExitPop, #confPurchItemPop {
+    background-color: #ffffff24;
+ }
+
+ #confirmBtn {
+    text-shadow: none;
+ }
+
+ #declineBtn {
+    text-shadow: none;
+ }
+
+ #popupContent {
+    background-color: #ffffff24 !important;
+ }
+
+ #activateKDM {
+    width: max-content;
+    height: max-content;
+ }
+ 
+ #trustProg {
+    background-color: #fff0;
+ }
+
+ .punishButton {
+    margin-right: 6px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    border-radius: 10;
+    text-shadow: none;
+ }
+
+ #chatList {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+ }
+
+ .creatorCodeBtn[style="background-color:#41c300"] {
+   background-color: var(--accent-color) !important;
+   border-radius: 10;
+   transition: 0.3s ease;
+ }
+
+ [style="padding:10px;background-color:rgba(0,0,0,0.2);margin-bottom:0px;margin-top:0px;padding-left:15px;font-size:18px"] {
+   border-radius: 10px;
+ }
+
+ .creatorCodeBtn:hover {
+    filter: grayscale(0);
+    -webkit-filter: grayscale(0);
+    transform: scale(1);
+    color: var(--accent-color);
+    box-shadow: inset 120px 0px rgb(255 255 255);
+    background-color: white !important;
+ }
+
+ .redVouchBtn {
+   background-color: var(--accent-color) !important;
+   border-radius: 10;
+   transition: 0.3s ease;
+ }
+
+ .redVouchBtn:hover {
+   color: var(--accent-color);
+    box-shadow: inset 80px 0px rgb(255 255 255);
+    background-color: white !important;
+ }
+
+ .pListTable {
+    border-radius: 10;
+ }
+
+ #trustProgHD {
+    text-shadow: none;
+    right: 370px;
+    border-radius: 10px;
+ }
+
+ #policePopC {
+   border-radius: 10px;
+ }
+ 
+ .settingTab {
+   transition: all 0.3s ease;
+ }
+ 
+ .quickJoin {
+    position: absolute;
+    transition: all 0.3s ease;
+    transform: translate(20px, 0px);
+    border-radius: 10px;
+    background-color: var(--shade);
+ }
+
+ .quickJoin:hover {
+    transform: translate(20px, 0px) !important;
+    color: var(--accent-color);
+    transform: scale(1.0);
+    box-shadow: inset 70px 0px rgb(255 255 255);
+    background-color: white;
+ }
+
+ .optImg {
+    top: 2px;
+ }
+
+ .menuTabsNew {
+    border-radius: 10;
+    background-color: rgba(0,0,0,.12) !important;
+ }
+
+ #trustPrgHD[style="width:100%;background-color:#63de26;"] {
+   border-radius: 10px;
+ }
+
+ .polApplc {
+    border-radius: 10px;
+ }
+
+ .mapListItem {
+    border-radius: 10px;
+ }
+
+ .classCard {
+    border-radius: 10 !important;
+    text-shadow: none;
+ }
+
+ #itemViewPop, #itemPurcPop {
+    border-radius: 10;
+ }
+
+ .itemViewSea {
+   background-color: #fff0;
+ }
+
+ ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgb(0 0 0 / 30%);
+    box-shadow: none;
+    border-radius:10;
+    background-color: #fff0 !important;
+ }
+
+ .itemViewName {
+    background-color: #fff0;
+ }
+
+ #itemInfoBtn:hover {
+    background-color: rgba(255,255,255,.4);
+ }
+
+ #itemInfoBtn {
+    background-color: rgba(0,0,0,.5);
+    transition: 0.3s ease;
+    border-radius: 10;
+ }
+
+ .itemCnt[data-badge]:after {
+    background-color: #fff0;
+ }
+
+ .selctInfoBtn:hover {
+    background-color: #fff0;
+ }
+
+ .selctInfoBtn {
+    background-color: #fff0;
+ }
+
+ .noBtnCard {
+    text-shadow: none;
+    border-radius: 10;
+ }
+ 
+ .sliderM {
+    transform: translate(0px, 5px);
+    border-radius: 10;
+ }
+ 
+ .skinCard {
+   border-radius: 10;
+ }
+
+ .sliderVal {
+    background: var(--shade);
+    margin-bottom: 5px;
+    border-radius: 10px; 
+ } 
+
+ .inputGrey2 {
+    margin-bottom: 10px;
+    border-radius: 10px;
+ }
+
+ .accountButton {
+    background-color: var(--shade);
+    color: #fff;
+ }
+
+ #settSearch {
+    border-radius: 10;
+ }
+
+ #weaponSelect {
+ 	padding-right: 0px;
+ }
+
+ .buttonCL {
+    width: max-content;
+    height: max-content;
+    font-size: 26px !important;
+ }
+
+ #freeKRClaimTxt {
+    text-shadow: none;
+ }
+
+ #claimPop {
+   border-radius: 10px;
+ }
+
+ .xpBarV {
+    font-size: 20px;
+ }
+
+ .xpBar {
+   border-radius: 10px;
+ }
+
+ .smlInput {
+   border-radius: 10px !important;
+ }
+
+ #tradeChatList {
+    background-color: rgba(0,0,0,.4);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+
+ #tradeChatInput {
+    transform: translate(0, -2px);
+    border-bottom-right-radius: 10px; 
+    border-bottom-left-radius: 10px;
+ }
+
+ .tradeChatItem {
+     background-color: #fff0;
+ }
+
+ .tListN {
+    border-radius: 10px;
+ }
+
+ .tSearch {
+     border-radius: 10px;
+ }
+
+ .tSubCheck {
+     border-radius: 10px;
+ }
+
+ .tDecCheck {
+     border-radius: 10px;
+ }
+
+ #tSubName {
+    text-shadow: none;
+ }
+
+ #tDecName {
+     text-shadow: none;
+ }
+
+ .tListN.inv {
+    background-color: var(--accent-color);
+    color: white;
+ }
+
+ .tItemHolder {
+     transition: 0.2s ease;
+ }
+
+ .krIcon {
+    border-radius: 10px;
+    color: black;
+    text-shadow: none !important;
+ }
+
+ .menuSelector {
+    transition: 0.12s ease;
+    border-radius: 10px
+ }
+
+ input:checked+.slider2 {
+    background-color: var(--shade);
+ }
+
+ #loadoutSelect[style="border-radius:6px;margin-left:10px;border:none;background:#eee;;padding:6px;padding-bottom:6px;margin-top:5px;margin-bottom:5px;"] {
+ 	border-radius: 10 !important;
+ }
+
+ .slider2 {
+    border-radius: 10px;
+    transform: translate(0px, -5px) !important;
+ }
+
+ .slider2:before {
+    border-radius: 10px;
+ }
+
+ .bidPlace {
+    text-shadow: none;
+ }
+
+ .material-icons[style="color:#2196F3;font-size:33px;vertical-align:bottom;"] {
+ 	font-size: 25px !important;
+ }
+
+ #bidPrevBtn {
+    text-shadow: none;
+ }
+
+ #bidPrevBtn:hover {
+    opacity: .9;
+    background-color: var(--accent-color) !important;
+    transform: scale(.95);
+ }
+
+ #bidPrevBtn {
+    background-color: var(--accent-color);
+    position: absolute;
+    bottom: 80px;
+    left: 295px;
+ } 
+
+ input[type=color] {
+    border: none;
+ }
+
+ #bidPrevBB {
+    top: 210px;
+ }
+
+ .click:hover {
+    text-decoration: none;
+ }
+
+ .skinCard:hover {
+    background-color: rgba(0,0,0,.6);
+ }
+
+ .settingsHeader {
+    top: -2px;
+ }
+
+ .settingsBtn:hover {
+    color: var(--accent-color);
+    box-shadow: inset 100px 0px rgb(255 255 255);
+    background-color: white;
+ }
+
+ .settingsBtn {
+    background-color: var(--shade);
+    transition: 0.3s ease;
+    border-radius: 10px;
+    color: white;
+ }
+
+ #serverSearch {
+    border-radius: 10px;
+ }
+
+ .shopCard {
+    text-shadow: none;
+    border-radius: 10;
+ }
+
+ #settingsTabLayout {
+    border-radius: 10;
+ }
+
+ .mapActionOvrl {
+    height: 100px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+ }
+
+ .mapListThumb {
+   border-radius: 10px;
+ }
+
+ .searchBtn {
+   border-radius: 10px;
+   color: white;
+   transition: 0.3s ease;
+ }
+
+ .searchBtn:hover {
+    color: var(--accent-color);
+    box-shadow: inset 140px 0px rgb(255 255 255);
+    background-color: white !important;
+    transform: scale(1);
+ }
+
+/* Ingame */
+
+ /* Editing */
+
+ #curGameInfo {
+    display: none;
+ }
+#timerVal{
+  color: cyan
+}
+
+ #timerDisplay {
+	text-align: center;
+	position: fixed;
+	transform: translateX(-50%) scale(1.2);
+	top: 0 !important;
+	left: 50%;
+	width: 120px !important;
+	height: 40px !important;
+	padding: 0 !important;
+	margin: 0 !important;
+	border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+	background-color: rgba(0,0,0,.4);
+	will-change: unset;
+ }
+
+ .debugInfo {
+    transform: translate(-10px, -10px);
+ }
+
+ #ingameFPS[style="color:#9eeb56"] {
+ 	color: var(--shade) !important;
+ }
+
+ #pingText:after {
+ 	content: ' ms';
+    color: rgba(255,255,255,.5);
+ } 
+
+ #pingText {
+ 	color: var(--shade);
+ }
+
+ #gameMessage {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 55px;
+    color: #fff;
+    z-index: 10;
+    font-size: 25px;
+ }
+
+ .weapItem {
+    position: absolute;
+    text-align: right;
+    margin-top: -12px;
+    transform: translate(-140px, 180px);
+ }
+
+ #weapItem_0 .weapIcon[style="opacity: 1;"] {
+   transform: translate(0px, -150px );
+ }
+
+ #weapItem_1 .weapIcon[style="opacity: 1; margin-right: 25px;"] {
+   transform: translate(0px, -150px );
+ }
+
+ #weapItem_2 .weapIcon[style="opacity: 1; margin-right: 25px;"] {
+   transform: translate(0px, -150px );
+ }
+
+ .weapIcon {
+   transition: 0.2s ease;
+ }
+
+ #healthValueHolder {
+    background-color: #fff0;
+    position: fixed;
+    right: calc(50% + 240px);
+    bottom: 10px;
+ }
+
+ #healthValue {
+   font-size: 90px;
+   width: 0;
+ }
+
+ #chatHolder {
+    bottom: 20px !important;
+    left: 20px !important;
+ }
+
+ #ammoVal {
+	position: fixed;
+	font-size: 90px;
+	right: calc(50% - 260px);
+	bottom: 22px;
+	color: var(--accent-color);
+ }
+
+ #ammoDisplay {
+    position: fixed;
+    background-color: transparent;
+    transform: none;
+    width: 50px;
+	height: 4px;
+	top: calc(50% + 35px);
+	left: calc(50% - 25px);
+    padding: 0px !important;
+ }
+
+ #leaderDisplay::before {
+    content: "Scoreboard";
+    display: flex;
+    border-bottom: 4px solid var(--accent-color);
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+    width: 100%;
+ }
+
+ .countIcon {
+    margin-bottom: 0px;
+    background-color: #fff0;
+    font-size: 28px;
+    padding-right: 16px;
+    padding-left: 10px;
+    border-radius: 0px;
+    text-align: center;
+    flex-direction: row
+ }
+
+ #deathsVal,
+ #killsVal,
+ #livesDisp,
+ #streakVal,
+ #myScoreVal,
+ #kdVal {
+    color: white !important;
+ }
+
+ #livesDisp:after {
+    content: 'Lives';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ #killsVal:after {
+    content: 'Kills';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ #deathsVal:after {
+    content: 'Deaths';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ #streakVal:after {
+    content: 'Streak';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ #myScoreVal:after {
+    content: 'Score';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ #kdVal:after {
+    content: 'KDR';
+    display: flex;
+    flex-direction: column-reverse;
+    font-size: 14px;
+    text-align: center
+ }
+
+ .leaderName {
+   color: var(--accent-color);
+ }
+
+ #teamSelector {
+   font-size: 19px;
+   bottom: 160px;
+ }
+
+ .selectedItem {
+    background-color: gray!important;
+    filter: none !important;
+ }
+
+ .selectorLabel {
+   text-shadow: none !important;
+ }
+
+  @keyframes shine {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -130% 0;
+ }
